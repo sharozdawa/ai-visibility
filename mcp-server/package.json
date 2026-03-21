@@ -1,0 +1,28 @@
+{
+  "name": "ai-visibility-mcp",
+  "version": "1.0.0",
+  "mcpName": "io.github.sharozdawa/ai-visibility",
+  "description": "MCP server for tracking brand visibility across ChatGPT, Perplexity, Claude, and Gemini",
+  "author": "sharozdawa",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharozdawa/ai-visibility.git"
+  },
+  "bin": {
+    "ai-visibility-mcp": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^25.5.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "ai-visibility",
+  "displayName": "AI Visibility Tracker",
+  "version": "1.0.0",
+  "description": "Track brand visibility across ChatGPT, Perplexity, Claude, and Gemini. Check mention rates, sentiment, positions, and get improvement recommendations.",
+  "author": "sharozdawa",
+  "repository": "https://github.com/sharozdawa/ai-visibility",
+  "license": "MIT",
+  "mcpServer": {
+    "command": "npx",
+    "args": ["-y", "ai-visibility-mcp"]
+  },
+  "tools": [
+    {
+      "name": "check_brand_visibility",
+      "description": "Check a brand's visibility across AI platforms with per-platform mention rates, positions, sentiment, and competitor analysis."
+    },
+    {
+      "name": "check_single_query",
+      "description": "Check if a brand is mentioned for a specific query on a specific AI platform."
+    },
+    {
+      "name": "get_visibility_score",
+      "description": "Calculate overall AI visibility score (0-100) with tier rating and recommendations."
+    },
+    {
+      "name": "compare_brands",
+      "description": "Compare AI visibility of multiple brands side by side with rankings."
+    },
+    {
+      "name": "get_recommendations",
+      "description": "Get prioritized recommendations to improve a brand's AI visibility."
+    },
+    {
+      "name": "list_platforms",
+      "description": "List all supported AI platforms with details on how each sources information."
+    }
+  ],
+  "keywords": [
+    "ai-visibility",
+    "brand-monitoring",
+    "chatgpt",
+    "perplexity",
+    "claude",
+    "gemini",
+    "seo",
+    "aeo",
+    "geo"
+  ]
+}
