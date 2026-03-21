@@ -14,6 +14,8 @@
   Track mentions, sentiment, position, and competitors across the AI platforms that shape buying decisions.
 </p>
 
+[![ai-visibility-mcp MCP server](https://glama.ai/mcp/servers/sharozdawa/ai-visibility/badges/card.svg)](https://glama.ai/mcp/servers/sharozdawa/ai-visibility)
+
 ---
 
 ## Features
