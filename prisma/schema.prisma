@@ -1,0 +1,36 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Brand {
+  id        String   @id @default(cuid())
+  name      String
+  domain    String?
+  keywords  String[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  checks    Check[]
+}
+
+model Check {
+  id           String   @id @default(cuid())
+  brandId      String
+  brand        Brand    @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  query        String
+  platform     String
+  mentioned    Boolean
+  position     Int?
+  context      String?
+  fullResponse String?
+  sentiment    String?
+  competitors  String[]
+  checkedAt    DateTime @default(now())
+
+  @@index([brandId, platform])
+  @@index([checkedAt])
+}
