@@ -1,6 +1,6 @@
 {
   "name": "ai-visibility-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "mcpName": "io.github.sharozdawa/ai-visibility",
   "description": "MCP server for tracking brand visibility across ChatGPT, Perplexity, Claude, and Gemini",
   "author": "sharozdawa",
