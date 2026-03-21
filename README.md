@@ -145,6 +145,27 @@ npm run dev
 | Claude | Anthropic | Trained on web data; focuses on accurate, well-reasoned responses |
 | Gemini | Google | Leverages Google Search index and Knowledge Graph |
 
+## Why AI Visibility vs Paid Alternatives
+
+| Feature | ai-visibility | Otterly | AthenaHQ |
+|---------|--------------|---------|----------|
+| Platforms tracked | 4 | 3 | 2 |
+| Visibility score | Yes | Yes | Yes |
+| Competitor analysis | Yes | Yes | Limited |
+| Sentiment analysis | Yes | No | No |
+| Self-hostable | Yes | No | No |
+| Open source | Yes | No | No |
+| Price | Free | $100-300/mo | $200-500/mo |
+
+## More Open Source SEO Tools
+
+| Tool | Description |
+|------|-------------|
+| [awesome-seo-mcp-servers](https://github.com/sharozdawa/awesome-seo-mcp-servers) | Curated list of SEO MCP servers and agent skills |
+| [robotstxt-ai](https://github.com/sharozdawa/robotstxt-ai) | Visual robots.txt manager for AI crawlers |
+| [indexnow-mcp](https://github.com/sharozdawa/indexnow-mcp) | Instant URL indexing via IndexNow |
+| [schema-gen](https://github.com/sharozdawa/schema-gen) | Schema.org JSON-LD markup generator |
+
 ## License
 
 MIT
