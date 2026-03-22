@@ -7,6 +7,7 @@
   <a href="https://github.com/sharozdawa/ai-visibility/stargazers"><img src="https://img.shields.io/github/stars/sharozdawa/ai-visibility?style=flat-square&color=7C3AED" alt="GitHub stars" /></a>
   <a href="https://github.com/sharozdawa/ai-visibility/blob/main/LICENSE"><img src="https://img.shields.io/github/license/sharozdawa/ai-visibility?style=flat-square&color=6366F1" alt="License" /></a>
   <a href="https://github.com/sharozdawa/ai-visibility/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://glama.ai/mcp/servers/sharozdawa/ai-visibility"><img src="https://glama.ai/mcp/servers/sharozdawa/ai-visibility/badges/score.svg" alt="AI Visibility MCP server" /></a>
 </p>
 
 <p align="center">
