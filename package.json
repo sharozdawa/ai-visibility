@@ -2,11 +2,12 @@
   "name": "ai-visibility",
   "version": "1.0.0",
   "description": "Track your brand visibility across ChatGPT, Perplexity, Claude, and Gemini",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "prisma generate"
+    "postinstall": "npm install -g tsx 2>/dev/null; cd mcp-server && npx tsc 2>/dev/null || true"
   },
   "keywords": [
     "ai-visibility",
