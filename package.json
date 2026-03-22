@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "npx prisma generate 2>/dev/null || true; npm install -g tsx 2>/dev/null; cd mcp-server && npx tsc 2>/dev/null || true"
+    "postinstall": "npx prisma generate 2>/dev/null || true; npm install -g tsx 2>/dev/null; cd mcp-server && npx tsc 2>/dev/null || true; cd .. && mkdir -p dist/cli && echo \"import('../../mcp-server/dist/index.js');\" > dist/cli/index.js"
   },
   "keywords": [
     "ai-visibility",
